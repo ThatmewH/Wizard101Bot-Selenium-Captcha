@@ -15,7 +15,7 @@ class Wizard101Selenium(selenium_master.SeleniumMaster):
     # Starts login process with the captcha
     def login_captcha(self):
         self.driver.get(self.start_url)
-        self._enter_login_details("thatmew", 'bbbshyaw')
+        self._enter_login_details("USERNAME", 'PASSWORD')
         self._complete_login_hcaptcha("47a7d8db-a257-4257-a9d4-96f75860abae"
                                       , self.driver.current_url)
 
