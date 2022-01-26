@@ -3,10 +3,8 @@ import time
 
 import Wizard101Bot
 
-# Add as many accounts here
-Wizard101Accounts = {"USERNAME1": "PASSWORD1"
-                     , "USERNAME2": "PASSWORD2"
-                     }
+USERNAME = ""
+PASSWORD = ""
 
 class Bot101:
     def __init__(self):
@@ -17,7 +15,7 @@ class Bot101:
         self.selenium_wizard101.login_cookies()
 
     def login_captcha(self):
-        self.selenium_wizard101.login_captcha()
+        self.selenium_wizard101.login_captcha(USERNAME, PASSWORD)
 
     def start_login(self):
         self._login()
