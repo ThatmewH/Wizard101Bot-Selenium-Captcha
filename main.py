@@ -3,13 +3,9 @@ import time
 
 import Wizard101Bot
 
-# thatmew
-# master email:      mjh1234567@hotmail.com
-# master password:   bbbshyaw
-
-Wizard101Accounts = {"thatmew": "bbbshyaw"
-                     , "thatmewh": "bbbshyaw"
-                     , "thatmewhh": "paub.saig3FLUL*ay"
+# Add as many accounts here
+Wizard101Accounts = {"USERNAME1": "PASSWORD1"
+                     , "USERNAME2": "PASSWORD2"
                      }
 
 class Bot101:
