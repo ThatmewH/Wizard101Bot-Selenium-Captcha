@@ -61,7 +61,7 @@ class Bot101:
                     return
 
     def read_last_quiz_time(self):
-        file_text = self.selenium_wizard101.read_file("C:/Users/thatm/Documents/Python Projects/CaptchaBot/question_pool.txt")
+        file_text = self.selenium_wizard101.read_file("question_pool.txt")
         lines_split = file_text.split("\n")
 
         last_quiz_time = float(lines_split[2])
